@@ -36,6 +36,6 @@ int main()
 {
     query q;
     q.find_query();
-
+ 
     return 0;
 }

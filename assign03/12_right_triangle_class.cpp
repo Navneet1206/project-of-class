@@ -5,7 +5,7 @@ class right_triangle_pattern
 public:
     right_triangle_pattern(int size)
     {
-        int i, j, k;
+        int i, j;
         for (i = 1; i <= size; i++)
         {
            

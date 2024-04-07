@@ -14,8 +14,10 @@ public:
 int main()
 {
     int number;
+
     cout<<"Enter any even or odd number : ";
     cin>>number;
+
     even_odd_class obj(number);
 
     return 0;

@@ -6,19 +6,19 @@ public:
     divisible_by(int value1, int value2)
     {
         if(value2%value1==0)
-        cout<<value2<<" is a divisible by "<<value1;     
+        cout<<value1<<" is a divisible by "<<value2;     
         else
-        cout<<value2<<" is a not divisible by" <<value1;
+        cout<<value1<<" is a not divisible by " <<value2;
     }
 };
 int main()
 {
-    int number1, number2;
+    int divisor, divident;
     cout<<"Enter any divisor number : ";
-    cin>>number1;
+    cin>>divisor;
     cout<<"Enter any divident number : ";
-    cin>>number2;
-    divisible_by obj(number1, number2);
+    cin>>divident;
+    divisible_by obj(divisor, divident);
 
     return 0;
 }

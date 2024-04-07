@@ -6,9 +6,9 @@ public:
     max_min(int value1, int value2)
     {
         if(value2>value1)
-        cout<<value2<<" is a greater than "<<value1;     
+        cout<<value2<<" is greater than "<<value1;     
         else
-        cout<<value1<<" is a greater than" <<value2;
+        cout<<value1<<" is greater than " <<value2;
     }
 };
 int main()

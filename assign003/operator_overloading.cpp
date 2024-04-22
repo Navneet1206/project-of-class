@@ -1,22 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 class binary_operator
 {
-public :
+public:
     int data;
     binary_operator(int value)
     {
         data = value;
     }
 
-    binary_operator operator + (binary_operator &obj)
+    binary_operator operator+(binary_operator &obj)
     {
         return binary_operator(data + obj.data);
     }
 
     void show()
     {
-        cout<< " Data  =  " << data;
+        cout << " Data  =  " << data;
     }
 };
 

@@ -1,22 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 class unary_operator
 {
-public :
+public:
     int data;
     unary_operator(int value)
     {
         data = value;
     }
 
-    void operator ++ ()
+    void operator++()
     {
         ++data;
     }
 
     void show()
     {
-        cout<< " Data  =  " << data;
+        cout << " Data  =  " << data;
     }
 };
 
